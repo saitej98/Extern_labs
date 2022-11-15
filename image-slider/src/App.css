@@ -60,7 +60,7 @@ body {
   transition: all 500ms;
   width: 500px;
   height: 500px;
-  object-fit: cover;
+  object-fit: contain;
 }
 .actions {
   position: absolute;
