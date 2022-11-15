@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+/* css */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.slideshow {
+  position: relative;
+}
+.mainImg {
+  transition: all 500ms;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+.actions {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+button:hover {
+  cursor: pointer;
+  color: #958f94;
+}
